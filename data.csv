@@ -1,0 +1,62 @@
+User,name,mobile,email,content,spam_label,combined_text
+1,John,1234567890,email@example.com,Click here for exclusive deals!,1,John email@example.com Click here for exclusive deals!
+2,Mary,2345678901,important.notice@bank.com,Your account has been suspended. Please verify your information.,1,Mary important.notice@bank.com Your account has been suspended. Please verify your information.
+3,David,3456789012,free.gift@winnings.co,You've won a million dollars! Claim your prize now!,1,David free.gift@winnings.co You've won a million dollars! Claim your prize now!
+4,Emma,4567890123,support@company.com,We've received your request and are working on it.,0,Emma support@company.com We've received your request and are working on it.
+5,Michael,5678901234,unsubscribe@service.com,"To unsubscribe from our emails click here.",0,Michael unsubscribe@service.com To unsubscribe from our emails click here.
+6,Sophia,6789012345,newsletter@updates.com,Check out our latest newsletter for exciting updates!,0,Sophia newsletter@updates.com Check out our latest newsletter for exciting updates!
+7,Jacob,7890123456,special.offer@shop.com,50% off on all products this weekend only!,1,Jacob special.offer@shop.com 50% off on all products this weekend only!
+8,Isabella,8901234567,verify.account@secure.com,Your account security has been compromised. Verify now!,1,Isabella verify.account@secure.com Your account security has been compromised. Verify now!
+9,Ethan,9012345678,survey@company.com,Help us improve our services by taking this short survey.,0,Ethan survey@company.com Help us improve our services by taking this short survey.
+10,Olivia,1234567890,membership@club.com,Join our exclusive club and get access to premium benefits!,1,Olivia membership@club.com Join our exclusive club and get access to premium benefits!
+11,Noah,2345678901,notification@socialmedia.com,You have new friend requests and notifications.,0,Noah notification@socialmedia.com You have new friend requests and notifications.
+12,Mia,3456789012,security.alert@bank.com,Unauthorized access attempt detected. Secure your account now!,1,Mia security.alert@bank.com Unauthorized access attempt detected. Secure your account now!
+13,Liam,4567890123,contest@prizes.com,Enter our contest for a chance to win amazing prizes!,1,Liam contest@prizes.com Enter our contest for a chance to win amazing prizes!
+14,William,5678901234,privacy.policy@update.com,We've updated our privacy policy. Read it here.,0,William privacy.policy@update.com We've updated our privacy policy. Read it here.
+15,James,6789012345,urgent.alert@service.com,URGENT: Your action required immediately!,1,James urgent.alert@service.com URGENT: Your action required immediately!
+16,Oliver,7890123456,invite@event.com,You're invited to our grand event this weekend. RSVP now!,0,Oliver invite@event.com You're invited to our grand event this weekend. RSVP now!
+17,Benjamin,8901234567,verify.email@company.com,Please verify your email address to complete registration.,1,Benjamin verify.email@company.com Please verify your email address to complete registration.
+18,Elijah,9012345678,billing@subscription.com,Your subscription payment failed. Update payment info now.,1,Elijah billing@subscription.com Your subscription payment failed. Update payment info now.
+19,Lucas,1234567890,confirm.booking@travel.com,Confirm your flight booking for a hassle-free journey.,0,Lucas confirm.booking@travel.com Confirm your flight booking for a hassle-free journey.
+20,Henry,2345678901,security.team@company.com,Your account security is our top priority. Take action now!,1,Henry security.team@company.com Your account security is our top priority. Take action now!
+21,Alexander,3456789012,survey.reward@company.com,Complete our survey and get a chance to win exciting rewards!,1,Alexander survey.reward@company.com Complete our survey and get a chance to win exciting rewards!
+22,Daniel,4567890123,important.update@website.com,Important update: Changes to our terms of service.,0,Daniel important.update@website.com Important update: Changes to our terms of service.
+23,Matthew,5678901234,upgrade@service.com,Upgrade to premium membership for exclusive benefits.,1,Matthew upgrade@service.com Upgrade to premium membership for exclusive benefits.
+24,Victoria,6789012345,feedback@product.com,We value your feedback. Share your thoughts with us.,0,Victoria feedback@product.com We value your feedback. Share your thoughts with us.
+25,David,7890123456,special.deal@shop.com,Limited time offer: Buy one get one free on selected items!,1,David special.deal@shop.com Limited time offer: Buy one get one free on selected items!
+26,Sebastian,8901234567,account.alert@bank.com,Suspicious activity detected on your account. Verify now!,1,Sebastian account.alert@bank.com Suspicious activity detected on your account. Verify now!
+27,Evelyn,9012345678,new.arrivals@store.com,Check out our latest arrivals for the season!,0,Evelyn new.arrivals@store.com Check out our latest arrivals for the season!
+28,Harper,1234567890,claim.prize@lottery.com,Congratulations! You've won the lottery. Claim your prize.,1,Harper claim.prize@lottery.com Congratulations! You've won the lottery. Claim your prize.
+29,Chloe,2345678901,discount.code@shop.com,Use code SAVE20 to get 20% off on your next purchase.,1,Chloe discount.code@shop.com Use code SAVE20 to get 20% off on your next purchase.
+30,Victoria,3456789012,verification.request@company.com,Verify your identity to unlock premium features.,1,Victoria verification.request@company.com Verify your identity to unlock premium features.
+31,William,4567890123,invitation.event@company.com,Invitation: Attend our upcoming event for networking and learning.,0,William invitation.event@company.com Invitation: Attend our upcoming event for networking and learning.
+32,Sophie,5678901234,newsletter@updates.com,Check out our latest newsletter for exciting updates!,0,Sophie newsletter@updates.com Check out our latest newsletter for exciting updates!
+33,Landon,6789012345,special.offer@shop.com,50% off on all products this weekend only!,1,Landon special.offer@shop.com 50% off on all products this weekend only!
+34,Amelia,7890123456,verify.account@secure.com,Your account security has been compromised. Verify now!,1,Amelia verify.account@secure.com Your account security has been compromised. Verify now!
+35,Evan,8901234567,survey@company.com,Help us improve our services by taking this short survey.,0,Evan survey@company.com Help us improve our services by taking this short survey.
+36,Madison,9012345678,membership@club.com,Join our exclusive club and get access to premium benefits!,1,Madison membership@club.com Join our exclusive club and get access to premium benefits!
+37,Logan,1234567890,notification@socialmedia.com,You have new friend requests and notifications.,0,Logan notification@socialmedia.com You have new friend requests and notifications.
+38,Grace,2345678901,discount@website.com,Get a discount voucher worth $20 on your next purchase.,1,Grace discount@website.com Get a discount voucher worth $20 on your next purchase.
+39,Ryan,3456789012,security.alert@bank.com,Unauthorized access attempt detected. Secure your account now!,1,Ryan security.alert@bank.com Unauthorized access attempt detected. Secure your account now!
+40,Avery,4567890123,contest@prizes.com,Enter our contest for a chance to win amazing prizes!,1,Avery contest@prizes.com Enter our contest for a chance to win amazing prizes.
+41,Nora,5678901234,privacy.policy@update.com,We've updated our privacy policy. Read it here.,0,Nora privacy.policy@update.com We've updated our privacy policy. Read it here.
+42,Jack,6789012345,urgent.alert@service.com,URGENT: Your action required immediately!,1,Jack urgent.alert@service.com URGENT: Your action required immediately!
+43,Julia,7890123456,invite@event.com,You're invited to our grand event this weekend. RSVP now!,0,Julia invite@event.com You're invited to our grand event this weekend. RSVP now!
+44,Carter,8901234567,verify.email@company.com,Please verify your email address to complete registration.,1,Carter verify.email@company.com Please verify your email address to complete registration.
+45,Stella,9012345678,billing@subscription.com,Your subscription payment failed. Update payment info now.,1,Stella billing@subscription.com Your subscription payment failed. Update payment info now.
+46,Mason,1234567890,confirm.booking@travel.com,Confirm your flight booking for a hassle-free journey.,0,Mason confirm.booking@travel.com Confirm your flight booking for a hassle-free journey.
+47,Henry,2345678901,security.team@company.com,Your account security is our top priority. Take action now!,1,Henry security.team@company.com Your account security is our top priority. Take action now!
+48,Alexander,3456789012,survey.reward@company.com,Complete our survey and get a chance to win exciting rewards!,1,Alexander survey.reward@company.com Complete our survey and get a chance to win exciting rewards!
+49,Daniel,4567890123,important.update@website.com,Important update: Changes to our terms of service.,0,Daniel important.update@website.com Important update: Changes to our terms of service.
+50,Matthew,5678901234,upgrade@service.com,Upgrade to premium membership for exclusive benefits.,1,Matthew upgrade@service.com Upgrade to premium membership for exclusive benefits.
+51,Victoria,6789012345,feedback@product.com,We value your feedback. Share your thoughts with us.,0,Victoria feedback@product.com We value your feedback. Share your thoughts with us.
+52,David,7890123456,special.deal@shop.com,Limited time offer: Buy one get one free on selected items!,1,David special.deal@shop.com Limited time offer: Buy one get one free on selected items!
+53,Sebastian,8901234567,account.alert@bank.com,Suspicious activity detected on your account. Verify now!,1,Sebastian account.alert@bank.com Suspicious activity detected on your account. Verify now!
+54,Evelyn,9012345678,new.arrivals@store.com,Check out our latest arrivals for the season!,0,Evelyn new.arrivals@store.com Check out our latest arrivals for the season!
+55,Harper,1234567890,claim.prize@lottery.com,Congratulations! You've won the lottery. Claim your prize.,1,Harper claim.prize@lottery.com Congratulations! You've won the lottery. Claim your prize.
+56,Chloe,2345678901,discount.code@shop.com,Use code SAVE20 to get 20% off on your next purchase.,1,Chloe discount.code@shop.com Use code SAVE20 to get 20% off on your next purchase.
+57,Victoria,3456789012,verification.request@company.com,Verify your identity to unlock premium features.,1,Victoria verification.request@company.com Verify your identity to unlock premium features.
+58,William,4567890123,invitation.event@company.com,Invitation: Attend our upcoming event for networking and learning.,0,William invitation.event@company.com Invitation: Attend our upcoming event for networking and learning.
+59,Sophie,5678901234,newsletter@updates.com,Check out our latest newsletter for exciting updates!,0,Sophie newsletter@updates.com Check out our latest newsletter for exciting updates!
+60,Landon,6789012345,special.offer@shop.com,50% off on all products this weekend only!,1,Landon special.offer@shop.com 50% off on all products this weekend only!
+61,Amelia,7890123456,verify.account@secure.com,Your account security has been compromised. Verify now!,1,Amelia verify.account@secure.com Your account security has been compromised. Verify now!
