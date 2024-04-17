@@ -18,9 +18,12 @@ data['combined_text'] = data['name'] + ' ' + data['email'] + ' ' + data['content
 X = data['combined_text']
 y = data['spam_label']
 
-# Read custom words from text file
+# Read custom words from text file and ignore duplicates
 with open('custom_words.txt', 'r') as file:
-    custom_words = file.read().splitlines()
+    custom_words_set = set(file.read().splitlines())
+
+# Convert set back to list to maintain order
+custom_words = list(custom_words_set)
 
 # Convert text data to TF-IDF vectors with custom words
 tfidf_vectorizer = TfidfVectorizer(max_features=1000, vocabulary=custom_words)
