@@ -18,12 +18,9 @@ data['combined_text'] = data['name'] + ' ' + data['email'] + ' ' + data['content
 X = data['combined_text']
 y = data['spam_label']
 
-# Custom words for TF-IDF vectorizer
-custom_words = [
-    'free', 'buy now', 'click here', 'discount', 'money back guarantee','Rewards',"Click here", "Buy now", "Act fast", "Money back guarantee", "Enlarge your", "You've won",
-    'limited time offer', 'exclusive deal', 'order now', 'urgent', 'act fast','Cashback','viagra', 'online pharmacy', 'lottery',
-    'inheritance', 'prince', 'Nigerian prince','Flashsale','Emergency','winner','internships','internship'
-]
+# Read custom words from text file
+with open('custom_words.txt', 'r') as file:
+    custom_words = file.read().splitlines()
 
 # Convert text data to TF-IDF vectors with custom words
 tfidf_vectorizer = TfidfVectorizer(max_features=1000, vocabulary=custom_words)
@@ -36,9 +33,15 @@ classifier.fit(X_tfidf, y)
 # Define function to predict spam or not spam
 def predict_spam(name, email, content):
     combined_input = name + ' ' + email + ' ' + content
-    X_input_tfidf = tfidf_vectorizer.transform([combined_input])
-    predicted_label = classifier.predict(X_input_tfidf)
-    return predicted_label[0]
+    # Check if any custom words are present in the combined input text
+    custom_words_present = any(word in combined_input.lower() for word in custom_words)
+    if custom_words_present:
+        X_input_tfidf = tfidf_vectorizer.transform([combined_input])
+        predicted_label = classifier.predict(X_input_tfidf)
+        return predicted_label[0]
+    else:
+        # If no custom words are present, classify as not spam
+        return 0
 
 # Function to check if the email is valid
 def is_valid_email(email):

@@ -3,7 +3,7 @@ User,name,mobile,email,content,spam_label,combined_text
 2,Mary,2345678901,important.notice@bank.com,Your account has been suspended. Please verify your information.,1,Mary important.notice@bank.com Your account has been suspended. Please verify your information.
 3,David,3456789012,free.gift@winnings.co,You've won a million dollars! Claim your prize now!,1,David free.gift@winnings.co You've won a million dollars! Claim your prize now!
 4,Emma,4567890123,support@company.com,We've received your request and are working on it.,0,Emma support@company.com We've received your request and are working on it.
-5,Michael,5678901234,unsubscribe@service.com,"To unsubscribe from our emails click here.",0,Michael unsubscribe@service.com To unsubscribe from our emails click here.
+5,Michael,5678901234,unsubscribe@service.com,To unsubscribe from our emails click here.,0,Michael unsubscribe@service.com To unsubscribe from our emails click here.
 6,Sophia,6789012345,newsletter@updates.com,Check out our latest newsletter for exciting updates!,0,Sophia newsletter@updates.com Check out our latest newsletter for exciting updates!
 7,Jacob,7890123456,special.offer@shop.com,50% off on all products this weekend only!,1,Jacob special.offer@shop.com 50% off on all products this weekend only!
 8,Isabella,8901234567,verify.account@secure.com,Your account security has been compromised. Verify now!,1,Isabella verify.account@secure.com Your account security has been compromised. Verify now!
@@ -38,7 +38,7 @@ User,name,mobile,email,content,spam_label,combined_text
 37,Logan,1234567890,notification@socialmedia.com,You have new friend requests and notifications.,0,Logan notification@socialmedia.com You have new friend requests and notifications.
 38,Grace,2345678901,discount@website.com,Get a discount voucher worth $20 on your next purchase.,1,Grace discount@website.com Get a discount voucher worth $20 on your next purchase.
 39,Ryan,3456789012,security.alert@bank.com,Unauthorized access attempt detected. Secure your account now!,1,Ryan security.alert@bank.com Unauthorized access attempt detected. Secure your account now!
-40,Avery,4567890123,contest@prizes.com,Enter our contest for a chance to win amazing prizes!,1,Avery contest@prizes.com Enter our contest for a chance to win amazing prizes.
+40,Avery,4567890123,contest@prizes.com,Enter our contest for a chance to win amazing prizes!,1,Avery contest@prizes.com Enter our contest for a chance to win amazing prizes!
 41,Nora,5678901234,privacy.policy@update.com,We've updated our privacy policy. Read it here.,0,Nora privacy.policy@update.com We've updated our privacy policy. Read it here.
 42,Jack,6789012345,urgent.alert@service.com,URGENT: Your action required immediately!,1,Jack urgent.alert@service.com URGENT: Your action required immediately!
 43,Julia,7890123456,invite@event.com,You're invited to our grand event this weekend. RSVP now!,0,Julia invite@event.com You're invited to our grand event this weekend. RSVP now!
@@ -60,3 +60,9 @@ User,name,mobile,email,content,spam_label,combined_text
 59,Sophie,5678901234,newsletter@updates.com,Check out our latest newsletter for exciting updates!,0,Sophie newsletter@updates.com Check out our latest newsletter for exciting updates!
 60,Landon,6789012345,special.offer@shop.com,50% off on all products this weekend only!,1,Landon special.offer@shop.com 50% off on all products this weekend only!
 61,Amelia,7890123456,verify.account@secure.com,Your account security has been compromised. Verify now!,1,Amelia verify.account@secure.com Your account security has been compromised. Verify now!
+62,Aryan,1320304170,aryankc@gmail.com,"What are you upto?
+register now for this workshop",1,"Aryan aryankc@gmail.com What are you upto?
+register now for this workshop"
+63,xyzcompany,1239332806,thefireboar@gmail.com,"Hi, welcome to the nexus of fortune,register now!",1,"xyzcompany thefireboar@gmail.com Hi, welcome to the nexus of fortune,register now!"
+64,xyzcompany,7774809320,thefireboar@gmail.com,I must thank you for the last week,1,xyzcompany thefireboar@gmail.com I must thank you for the last week
+65,Atharv dilip Rahate,3909063500,rahateatharv296@mail.com,HI  nice to meet you folks. Welcome to this new tour of the hometown.,0,
