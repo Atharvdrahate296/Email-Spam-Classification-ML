@@ -33,7 +33,7 @@ X_tfidf = tfidf_vectorizer.fit_transform(X)
 classifier = MultinomialNB()
 classifier.fit(X_tfidf, y)
 
-# Define function to predict spam or not spam
+# Function to predict spam or not spam
 def predict_spam(name, email, content):
     combined_input = name + ' ' + email + ' ' + content
     # Check if any custom words are present in the combined input text
@@ -52,12 +52,14 @@ def is_valid_email(email):
 
 # Streamlit app
 st.set_page_config(layout="wide")
+
 def get_email(email):
     if email and not is_valid_email(email):
         st.error("Invalid Email ID!")
 
 # Add navigation bar
 nav_option = st.sidebar.radio("Menu", ["Home", "Model", "Dataset"])
+
 if nav_option == "Home":
     st.title('Model Details')
     # Read the README.md file
@@ -85,14 +87,18 @@ elif nav_option == "Model":
             # Generate random 10-digit mobile number
             mobile_number = ''.join(random.choices('0123456789', k=10))
 
+            # Predict spam label
             predicted_label = predict_spam(name, email, content)
+
+            # Display prediction result
             if predicted_label == 1:
                 st.error("This email is classified as spam.")
             else:
                 st.success("This email is not spam.")
 
-            # Add details to the CSV file
-            new_data = {'User': [len(data) + 1], 'name': [name], 'mobile': [mobile_number], 'email': [email], 'content': [content], 'spam_label': [predicted_label]}
+            # Append new data to the CSV file
+            ct=name+' '+email+' '+content
+            new_data = {'User': [len(data) + 1], 'name': [name], 'mobile': [mobile_number], 'email': [email], 'content': [content], 'spam_label': [predicted_label],'combined_text':[ct]}
             data = pd.concat([data, pd.DataFrame(new_data)], ignore_index=True)
             data.to_csv('data.csv', index=False)
 
