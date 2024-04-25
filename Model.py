@@ -72,10 +72,10 @@ elif nav_option == "Model":
     st.empty()
 
     # User input for name, email, and content
-    name = st.text_input('Enter your name:')
-    email = st.text_input('Enter  email-id:')
+    name = st.text_input('Enter your Name:')
+    email = st.text_input('Enter  Email-ID:')
     get_email(email)  # Check if the email is valid
-    content = st.text_area('Enter email content:', height=200)
+    content = st.text_area('Enter Email content:', height=200)
 
     # Predict spam or not spam
     if st.button('Predict'):
