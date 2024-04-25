@@ -73,7 +73,7 @@ elif nav_option == "Model":
 
     # User input for name, email, and content
     name = st.text_input('Enter your name:')
-    email = st.text_input('Enter your email:')
+    email = st.text_input('Enter  email-id:')
     get_email(email)  # Check if the email is valid
     content = st.text_area('Enter email content:', height=200)
 
@@ -97,5 +97,5 @@ elif nav_option == "Model":
             data.to_csv('data.csv', index=False)
 
 elif nav_option == "Dataset":
-    st.subheader("Dataset")
+    st.subheader("Prediction Dataset")
     st.write(data)
