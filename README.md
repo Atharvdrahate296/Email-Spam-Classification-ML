@@ -6,6 +6,15 @@ Welcome to the Email Spam Classification project! This project is designed to co
 
 In today's digital landscape, the influx of spam emails poses significant challenges to individuals and organizations worldwide. These unwanted messages not only clutter inboxes but also consume valuable time and may even compromise security. The Email Spam Classification project addresses this challenge by harnessing the power of machine learning algorithms to automatically identify and filter out spam emails.
 
+## Collaborators
+We extend our sincere appreciation to invaluable contributions of my colleages in Email Spam Classification project.
+Thank you for your expertise and dedication in combating email spam and promoting safer communication channels.
+* Purva Sakhare: for her expert guidance and feedback in preparing the dataset.
+        https://github.com/PurvaSakhare
+* Ayesha Sheikh: for her contribution to model development.
+        
+
+
 ## Features
 
 ### 1. Model Details
