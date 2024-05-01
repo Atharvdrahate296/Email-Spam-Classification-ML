@@ -9,9 +9,8 @@ In today's digital landscape, the influx of spam emails poses significant challe
 ## Collaborators
 We extend our sincere appreciation to invaluable contributions of my colleages in Email Spam Classification project.
 Thank you for your expertise and dedication in combating email spam and promoting safer communication channels.
-* Purva Sakhare: for her expert guidance and feedback in preparing the dataset.
-        https://github.com/PurvaSakhare
-* Ayesha Sheikh: for her contribution to model development.
+* Purva Sakhare: for her expert guidance and feedback in preparing the dataset.[Github Account](https://github.com/PurvaSakhare)
+* Ayesha Sheikh: for her contribution to model development.[Github Account](https://github.com/Ayeshasheikh16)
         
 
 
